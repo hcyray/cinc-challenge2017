@@ -40,7 +40,7 @@ import numpy as np
 import glob
 
 # Parameters
-dataDir = '/some_path/' # <---- change!!
+dataDir = '../training2017/' # <---- change!!
 dataDir = 'training2017/'
 FS = 300
 WINDOW_SIZE = 60*FS
