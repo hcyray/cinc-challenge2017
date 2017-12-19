@@ -217,7 +217,7 @@ def ResNet_model(WINDOW_SIZE):
     ## Main loop
     p = not p 
     for l in range(15):
-        
+        print(l)
         if (l%4 == 0) and (l>0): # increment k on every fourth residual block
             k += 1
              # increase depth by 1x1 Convolution case dimension shall change
